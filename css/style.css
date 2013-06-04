@@ -885,7 +885,7 @@
 	
 	#footer-wrapper
 	{
-		background: #282b34 url('images/overlay.png');
+		background: #4d4d4d url('images/overlay.png');
 		color: #eee;
 		color: rgba(255,255,255,0.5);
 	}
@@ -947,7 +947,7 @@
 
 		#footer-wrapper .title
 		{
-			background: #282b34 url('images/overlay.png');
+			background: #4d4d4d url('images/overlay.png');
 			color: #eee;
 		}
 		
@@ -981,7 +981,7 @@
 			
 				#footer-wrapper .feature-list h3:before
 				{
-					background: #3d4249 url('images/overlay.png');
+					background: #4d4d4d url('images/overlay.png');
 				}
 	
 	.wrapper-style1
