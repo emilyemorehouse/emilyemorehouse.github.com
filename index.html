@@ -65,11 +65,11 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-user">About Me</span></a></li>
+                        <li><a href="#skills" id="skills-link" class="skel-panels-ignoreHref"><span class="fa fa-briefcase">Skills</span></a></li>
                         <li><a href="#research" id="research-link" class="skel-panels-ignoreHref"><span class="fa fa-book">Research</span></a></li>
                         <li><a href="#projects" id="projects-link" class="skel-panels-ignoreHref"><span class="fa fa-edit">Projects</span></a></li>
-                        <li><a href="#skills" id="skills-link" class="skel-panels-ignoreHref"><span class="fa fa-briefcase">Skills</span></a></li>
-                        <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li>
-                        <li><a href="" id="download-link" class="skel-panels-ignoreHref" download="emilyemorehouse_resume.pdf">
+                        <!-- <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li> -->
+                        <li><a href="MorehouseResume.pdf" id="download-link" class="skel-panels-ignoreHref" download="emilyemorehouse_resume.pdf" target="_blank">
                             <span class="fa fa-download">Download CV</span></a>
                         </li>
                     </ul>
@@ -127,6 +127,57 @@
 
                 </div>
             </section>
+
+            <!-- Skils -->
+            <section id="skills" class="four">
+                <div class="container">
+
+                    <header>
+                        <h1>These are some of the things I'm awesome at.</h1>
+                    </header>
+                    
+                    <div class="6u">
+                        <ul><strong>Operating Systems:</strong>
+                            <li>Mac OS X</li>
+                            <li>Windows</li>
+                            <li>Unix</li>
+                            <li>Linux (Backtrack, Ubuntu, Debian)</li>
+                        </ul>
+
+                        <ul><strong>Programming Languages:</strong>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+
+                    <div class="6u">
+                        <ul><strong>Databases:</strong>
+                            <li>MySQL</li>
+                            <li>SQLite</li>
+                            <li>PostgreSQL</li>
+                            <li>Cassandra</li>
+                            <li>MongoDB</li>
+                        </ul>
+
+                        <ul><strong>Software:</strong>
+                            <li>MS Word/Excel/PowerPoint</li>
+                            <li>MS Visual Studio</li>
+                            <li>Adobe Photoshop and Illustrator</li>
+                        </ul>
+
+                        <ul><strong>Source Control:</strong>
+                            <li>Git</li>
+                            <li>Mercurial</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
                     
             <!-- Research -->
             <section id="research" class="two">
@@ -167,7 +218,7 @@
             </section>
 
             <!-- Projects -->
-            <section id="projects" class="four">
+            <section id="projects" class="three">
                 <div class="container">
 
                     <header>
@@ -239,22 +290,17 @@
                                 <br>
 
                                 <h4>A compilation of classical (and perhaps not-so-classical) algorithms in their
-                                    fully implemented form. Some examples include: 
-                                </h4>
-
-                                <ul>
-                                    <li>Inversion Count using Divide and Conquer</li>
-                                    <li>Strongly and Weakly Connected Components </li>
-                                    <li>Bubble Sort</li>
-                                    <li>Selection Sort </li>
-                                    <li>Insertion Sort </li>
-                                    <li>Shell Sort</li>
-                                    <li>Gap Insertion Sort</li>
-                                    <li>Merge Sort</li>
-                                    <li>Quick Sort</li>
-                                </ul>
-
-                                <h4>
+                                    fully implemented form. Some examples include: <br>
+                                    - Inversion Count using Divide and Conquer <br>
+                                    - Strongly and Weakly Connected Components  <br>
+                                    - Bubble Sort <br>
+                                    - Selection Sort  <br>
+                                    - Insertion Sort  <br>
+                                    - Shell Sort <br>
+                                    - Gap Insertion Sort <br>
+                                    - Merge Sort <br>
+                                    - Quick Sort
+                                    <br><br>
                                     Language used: Python
                                     <br><br>
                                 </h4>
@@ -300,36 +346,16 @@
 
                 </div>
             </section>
-            
-            <!-- Skils -->
-            <section id="skills" class="three">
-                <div class="container">
-
-                    <header>
-                        <h1>These are some of the things I'm awesome at.</h1>
-                    </header>
-
-                    <a href="http://ineedchemicalx.deviantart.com/art/Pasadena-357650036" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-                    
-                    <p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus 
-                    ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae 
-                    laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem 
-                    parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper 
-                    dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec 
-                    ornare iaculis.</p>
-
-                </div>
-            </section>
 
             <!-- Contact -->
-            <section id="contact" class="two">
+            <!-- <section id="contact" class="two">
                 <div class="container">
 
                     <header>
-                        <h2>Contact</h2>
+                        <h1>Contact</h1>
                     </header>
 
-                    <!-- <p>Feel free to send me a message if you want to know more!</p>
+                    <p>Feel free to send me a message if you want to know more!</p>
                     
                     <form method="post" action="contact.php" name="contactform" id="contactform" class="form">
                         <div class="row half">
@@ -356,14 +382,30 @@
                         <div class="row">
                             <div class="12u">
                                 <button id="send" class="button submit">Send Message</button>
-                                <button id="send" class="button right">Send</button>
                                 <div class="loading-contact"><img src="images/loader.gif" alt="loader"/></div>
                             </div>
                         </div>
-                    </form> -->
+                    </form>
+
+                    <form method="post" action="#">
+                                <div class="row half">
+                                    <div class="6u"><input type="text" class="text" name="name" placeholder="Name" /></div>
+                                    <div class="6u"><input type="text" class="text" name="email" placeholder="Email" /></div>
+                                </div>
+                                <div class="row half">
+                                    <div class="12u">
+                                        <textarea name="message" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="12u">
+                                        <a href="#" class="button submit">Send Message</a>
+                                    </div>
+                                </div>
+                            </form>
 
                 </div>
-            </section>
+            </section> -->
             
         </div>
 
@@ -394,20 +436,20 @@
           if(diff > threshold && !big){
             $('.image.avatar48').animate({
                 width: 148,height: 148
-            });
+            },700);
             $('.image.avatar48 img').animate({
                 width: 148,height: 148
-            });
+            },700);
             big = true;
             //lastFixPos = $(window).scrollTop();
           }
           else if (diff < threshold && big) {
             $('.image.avatar48').animate({
                 width: 48,height: 48
-            });
+            },700);
             $('.image.avatar48 img').animate({
                 width: 48,height: 48
-            });
+            },700);
             big = false;
           }
         });
