@@ -195,15 +195,14 @@
 			.image.avatar48
 			{
 				/*display: block;*/
-				width: 148px;
-				height: 148px;
-				background: #f00;
+				width: 48px;
+				height: 48px;
 			}
 			
 				.image.avatar48 img
 				{
-					width: 148px;
-					height: 148px;
+					width: 48px;
+					height: 48px;
 					-webkit-border-radius: 50em;
 					-moz-border-radius: 50em;
 					border-radius: 150em;
