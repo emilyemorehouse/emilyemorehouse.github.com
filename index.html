@@ -83,8 +83,9 @@
                         <li><a href="#research" id="research-link" class="skel-panels-ignoreHref"><span class="fa fa-book">Research</span></a></li>
                         <li><a href="#projects" id="projects-link" class="skel-panels-ignoreHref"><span class="fa fa-edit">Projects</span></a></li>
                         <!-- <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li> -->
-                        <li><a href="MorehouseResume.pdf" id="download-link" class="skel-panels-ignoreHref" target="_blank">
-                            <span class="fa fa-download">Download CV</span></a>
+                        <li>
+                            <a href="#download" id="download-link" class="skel-panels-ignoreHref">
+                            <span id="cv-link" class="fa fa-download">Download CV</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -95,11 +96,11 @@
 
                 <!-- Social Icons -->
                 <ul class="icons">
-                    <li><a href="http://www.twitter.com/emilyemorehouse" class="fa fa-twitter solo"><span>Twitter</span></a></li>
-                    <li><a href="http://www.facebook.com/emilyemorehouse" class="fa fa-facebook solo"><span>Facebook</span></a></li>
-                    <li><a href="http://www.github.com/emilyemorehouse" class="fa fa-github solo"><span>Github</span></a></li>
-                    <li><a href="http://www.linkedin.com/pub/emily-morehouse/59/674/105" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
-                    <li><a href="http://www.instagram.com/emilyemorehouse" class="fa fa-instagram solo"><span>Facebook</span></a></li>
+                    <li><a href="http://www.twitter.com/emilyemorehouse" class="fa fa-twitter solo" target="_blank"><span>Twitter</span></a></li>
+                    <li><a href="http://www.facebook.com/emilyemorehouse" class="fa fa-facebook solo" target="_blank"><span>Facebook</span></a></li>
+                    <li><a href="http://www.github.com/emilyemorehouse" class="fa fa-github solo" target="_blank"><span>Github</span></a></li>
+                    <li><a href="http://www.linkedin.com/pub/emily-morehouse/59/674/105" class="fa fa-linkedin solo" target="_blank"><span>LinkedIn</span></a></li>
+                    <li><a href="http://www.instagram.com/emilyemorehouse" class="fa fa-instagram solo" target="_blank"><span>Facebook</span></a></li>
                     <li><a href="mailto:emilyemorehouse@gmail.com" class="fa fa-envelope solo"><span>Email</span></a></li>
                 </ul>
 
@@ -467,6 +468,12 @@
             },700);
             big = false;
           }
+        });
+
+        $(document).ready(function() { 
+            $('#cv-link').click(function() {
+            document.location.href='MorehouseResume.pdf';
+            });
         });
 
     </script> 
