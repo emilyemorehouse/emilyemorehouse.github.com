@@ -82,6 +82,12 @@
                         <li><a href="#skills" id="skills-link" class="skel-panels-ignoreHref"><span class="fa fa-briefcase">Skills</span></a></li>
                         <li><a href="#research" id="research-link" class="skel-panels-ignoreHref"><span class="fa fa-book">Research</span></a></li>
                         <li><a href="#projects" id="projects-link" class="skel-panels-ignoreHref"><span class="fa fa-edit">Projects</span></a></li>
+                        
+                        <li>
+                            <a href="#blog" id="blogref-link" class="skel-panels-ignoreHref">
+                            <span id="blog-link" class="fa fa-download">Blog</span></a>
+                        </li>
+
                         <!-- <li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-envelope">Contact</span></a></li> -->
                         <li>
                             <a href="#download" id="download-link" class="skel-panels-ignoreHref">
@@ -284,7 +290,7 @@
                         <div class="1u">&nbsp;</div>
                         <div class="10u">
                             <article class="item">
-                                <h3><a href="https://github.com/emilyemorehouse/Br-Ba-Timline" target="_blank"><span>Breaking Bad Timeline</span></a></h3>
+                                <h3><a href="https://github.com/emilyemorehouse/Br-Ba-Timeline" target="_blank"><span>Breaking Bad Timeline</span></a></h3>
                                 <br>
                                 <h4>A project to create a visual timeline representation of AMC's Breaking Bad, 
                                     from Season 1 to the end of Season 5. In conjunction with Frank Valcarcel. 
@@ -492,6 +498,12 @@
         $(document).ready(function() { 
             $('#cv-link').click(function() {
             document.location.href='MorehouseResume.pdf';
+            });
+        });
+
+        $(document).ready(function() { 
+            $('#blog-link').click(function() {
+            document.location.href='blog/output/index.html';
             });
         });
 
